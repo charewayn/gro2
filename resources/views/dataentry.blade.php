@@ -32,10 +32,10 @@
         
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link" href="/dataentry">Contact</a>
+                <a class="nav-link active" href="/dataentry">Organisation</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="/organisation">Organisation</a>
+                <a class="nav-link" href="/organisation">Contact</a>
             </li>
         </ul>
 

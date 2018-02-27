@@ -37,7 +37,7 @@ class HomeController extends Controller
 
     public function login(Request $request)
     {
-      
+        
         $email = $request->email;
         $password = $request->password;
         $request->session()->flush();
@@ -46,7 +46,7 @@ class HomeController extends Controller
             ->where([
                 ['email', $email],
                 ['password', sha1($password)]
-            ])->first();
+                    ])->first();//dump($user);die;
         if ($user && $user->active == 0) {
             session::flash('message', "you are not active!");
             return view('login');

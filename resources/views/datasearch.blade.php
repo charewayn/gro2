@@ -57,17 +57,26 @@
                     <label class="text-center col-sm-1">
                         </br></br><input type="checkbox" name="blankCheckbox" value="recordtype">
                     </label>
-                    <div class="col-sm-3 offset-sm-1">
-                    </br></br><input  name="entry" class="form-control form-control-sm col-sm-12 offset-sm-3">
+                    <div class="col-sm-2">
+                        </br></br>
                     </div>
-                    <div class="col-sm-2 offset-sm-1 text-center">
-                        </br></br><input name="noentry"  class="form-control form-control-sm col-sm-12 offset-sm-2">
+                    <div class="col-sm-3 ">
+                    </br></br>
+                        <select name="entry" name="entry" class="chosen-select " multiple  >
+                            <option value="generic">Generic</option>
+                            <option value="work">Work</option>
+                            <option value="personal">Personal</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-2 ">
+                        </br></br>
+                            <input name="noentry"  class="form-control form-control-sm col-sm-12 offset-sm-2">
                     </div>
                     <div class="col-sm-2 text-center">
                         </br></br>
                         <select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
                             <option value="like">like</option>
+                            <option value="exact">exact</option>
                         </select>
                     </div>
                 </div>
@@ -78,16 +87,19 @@
                     <label class=" text-center col-sm-1">
                         </br><input type="checkbox" name="blankCheckbox" value="instruction">
                     </label>
-                    <div class="col-sm-3 offset-sm-1">
-                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 offset-sm-3">
+                    <div class="col-sm-2">
+                        </br></br>
                     </div>
-                    <div class="col-sm-2 offset-sm-1">
+                    <div class="col-sm-3 ">
+                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 ">
+                    </div>
+                    <div class="col-sm-2 ">
                         </br><input name="noentry" class="form-control form-control-sm col-sm-12 offset-sm-2">
                     </div>
                     <div class="col-sm-2 text-center">
                         </br><select name="condition"  aria-controls="dataTable">
-                            <option value="exact">exact</option>
                             <option value="like">like</option>
+                            <option value="exact">exact</option>
                         </select>
                     </div>
 
@@ -101,12 +113,15 @@
                     <div class=" text-center col-sm-1">
                     <label >
                         </br>
-                        <input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="recordstatus">
+                        <input   type="checkbox" name="blankCheckbox" value="recordstatus">
                     </label>
                     </div>
-                    <div class="col-sm-3 offset-sm-1 ">
+                    <div class="col-sm-2">
+                        </br></br>
+                    </div>
+                    <div class="col-sm-3">
                         </br>
-                            <select name="entry" name="entry" class="chosen-select " multiple  style="width:180px;">
+                            <select name="entry" name="entry" class="chosen-select " multiple  >
                             <option value="deceased">Deceased</option>
                             <option value="left-retired">Left-Retired</option>
                             <option value="left-other">Left-Other</option>
@@ -115,13 +130,13 @@
                             <option value="delete-other">IT Person</option>
                         </select>
                     </div>
-                    <div class="col-sm-2 offset-sm-1">
+                    <div class="col-sm-2 ">
                         </br><input  name="noentry" class="form-control form-control-sm col-sm-12 offset-sm-2">
                     </div>
                     <div class="col-sm-2  text-center">
                         </br><select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
                             <option value="like">like</option>
+                            <option value="exact">exact</option>
                         </select>
                     </div>
 
@@ -131,18 +146,21 @@
                         </br>Job Title
                     </label>
                     <label class=" text-center col-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="jobtitle">
+                        </br><input   type="checkbox" name="blankCheckbox" value="jobtitle">
                     </label>
-                    <div class="col-sm-3 offset-sm-1">
-                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 offset-sm-3">
+                    <div class="col-sm-2">
+                        </br></br>
+                    </div>
+                    <div class="col-sm-3 ">
+                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 ">
                             </div>
-                    <div class="col-sm-2 offset-sm-1">
+                    <div class="col-sm-2 ">
                         </br><input  name="noentry" class="form-control form-control-sm col-sm-12 offset-sm-2">
                             </div>
                     <div class="col-sm-2  text-center">
                         </br><select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
                             <option value="like">like</option>
+                            <option value="exact">exact</option>
                         </select>
                     </div>
                 </div>
@@ -151,10 +169,13 @@
                         </br>Person Type
                     </label>
                     <label class=" text-center col-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="persontype">
+                        </br><input   type="checkbox" name="blankCheckbox" value="persontype">
                     </label>
-                    <div class="col-sm-3 offset-sm-1">
-                        </br><select name="entry" name="entry" class="chosen-select "  multiple  style="width:180px;">
+                    <div class="col-sm-2">
+                        </br></br>
+                    </div>
+                    <div class="col-sm-3 ">
+                        </br><select name="entry" name="entry" class="chosen-select "  multiple  >
                             <option value="academic - lecturer">Academic - Lecturer</option>
                             <option value="academic - researcher">Academic - Researcher</option>
                             <option value="academic - senior management">Academic - Senior Management</option>
@@ -211,13 +232,13 @@
                         </select>
 
                             </div>
-                    <div class="col-sm-2 offset-sm-1">
+                    <div class="col-sm-2 ">
                         </br><input name="noentry"  class="form-control form-control-sm col-sm-12 offset-sm-2">
                             </div>
                     <div class="col-sm-2 text-center">
                         </br><select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
                             <option value="like">like</option>
+                            <option value="exact">exact</option>
                         </select>
                     </div>
                 </div>
@@ -226,21 +247,21 @@
                         </br>Professional Interests
                     </label>
                     <label class=" text-center col-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="professionalInterest">
+                        </br><input   type="checkbox" name="blankCheckbox" value="professionalInterest">
                     </label>
-                    <label class=" text-center col-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="professionalInterest">
-                    </label>
+                    <div class="col-sm-2">
+                        </br></br>
+                    </div>
                     <div class="col-sm-3 ">
-                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 offset-sm-3">
+                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 ">
                             </div>
-                    <div class="col-sm-2 offset-sm-1">
+                    <div class="col-sm-2 ">
                         </br><input  name="noentry" class="form-control form-control-sm col-sm-12 offset-sm-2">
                             </div>
                     <div class="col-sm-2 text-center">
                         </br><select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
-                            <option value="like">like</option>
+                                <option value="like">like</option>
+                                <option value="exact">exact</option>
                         </select>
                     </div>
                 </div>
@@ -249,18 +270,21 @@
                         </br>Organisation
                     </label>
                     <label class=" text-center col-sm-1 offset-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="organisation">
+                        </br><input   type="checkbox" name="blankCheckbox" value="organisation">
                     </label>
+                    <div class="col-sm-1">
+                        </br></br>
+                    </div>
                     <div class="col-sm-3 ">
-                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 offset-sm-3">
+                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 ">
                             </div>
-                    <div class="col-sm-2 offset-sm-1">
+                    <div class="col-sm-2 ">
                         </br><input  name="noentry" class="form-control form-control-sm col-sm-12 offset-sm-2">
                             </div>
                     <div class="col-sm-2 text-center">
                         </br><select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
                             <option value="like">like</option>
+                            <option value="exact">exact</option>
                         </select>
                     </div>
                 </div>
@@ -269,18 +293,21 @@
                         </br>Department Level 1
                     </label>
                     <label class=" text-center col-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="departmentlevel1">
+                        </br><input  type="checkbox" name="blankCheckbox" value="departmentlevel1">
                     </label>
-                    <div class="col-sm-3 offset-sm-1">
-                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 offset-sm-3">
+                    <div class="col-sm-2">
+                        </br></br>
+                    </div>
+                    <div class="col-sm-3 ">
+                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 ">
                             </div>
-                    <div class="col-sm-2 offset-sm-1">
+                    <div class="col-sm-2 ">
                         </br><input  name="noentry" class="form-control form-control-sm col-sm-12 offset-sm-2">
                             </div>
                     <div class="col-sm-2 text-center">
                         </br><select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
                             <option value="like">like</option>
+                            <option value="exact">exact</option>
                         </select>
                     </div>
                 </div>
@@ -288,19 +315,22 @@
                     <label class="col-sm-2">
                         </br>Department Level 2
                     </label>
-                    <label class=" text-center col-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="dapartmentLevel2">
+                    <label class="col-sm-1 text-center">
+                        </br><input  type="checkbox" name="blankCheckbox" value="dapartmentLevel2">
                     </label>
-                    <div class="col-sm-3 offset-sm-1">
-                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 offset-sm-3">
+                    <div class="col-sm-2">
+                        </br></br>
+                    </div>
+                    <div class="col-sm-3 ">
+                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 ">
                             </div>
-                    <div class="col-sm-2 offset-sm-1">
+                    <div class="col-sm-2 ">
                         </br><input  name="noentry" class="form-control form-control-sm col-sm-12 offset-sm-2">
                             </div>
                     <div class="col-sm-2 text-center">
                         </br><select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
                             <option value="like">like</option>
+                            <option value="exact">exact</option>
                         </select>
                     </div>
                 </div>
@@ -309,9 +339,12 @@
                         </br>Org Type
                     </label>
                     <label class=" text-center col-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="orgType">
+                        </br><input   type="checkbox" name="blankCheckbox" value="orgType">
                     </label>
-                    <div class="col-sm-3 offset-sm-1">
+                    <div class="col-sm-2">
+                        </br></br>
+                    </div>
+                    <div class="col-sm-3 ">
                         </br><select name="entry" name="entry" class="chosen-select "  multiple>
                             <option value="banks">Banks</option>
                             <option value="central government">Central Government</option>
@@ -339,13 +372,13 @@
                         </select>
 
                             </div>
-                    <div class="col-sm-2 offset-sm-1">
+                    <div class="col-sm-2 ">
                         </br><input  name="noentry" class="form-control form-control-sm col-sm-12 offset-sm-2">
                             </div>
                     <div class="col-sm-2 text-center">
                         </br><select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
                             <option value="like">like</option>
+                            <option value="exact">exact</option>
                         </select>
                     </div>
                 </div>
@@ -354,13 +387,16 @@
                         </br>Country
                     </label>
                     <label class=" text-center col-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="country">
+                        </br><input  type="checkbox" name="blankCheckbox" value="country">
                     </label>
                     <label class=" text-center col-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="country">
+                        </br><input  type="checkbox" name="blankCheckbox" value="country">
                     </label>
+                    <div class="col-sm-1">
+                        </br></br>
+                    </div>
                     <div class="col-sm-3 ">
-                        </br><input name="entry" type="text" autocomplete="off" class="form-control form-control-sm offset-sm-3" data-provide="typeahead" data-source='["Afghanistan","Albania","Algeria","Andorra","Angola","Antigua and Barbuda","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Bosnia and Herzegovina","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burundi","Cabo Verde","Cambodia","Cameroon","Canada","Central African Republic (CAR)","Chad","Chile","China","Colombia","Comoros","Democratic Republic of the Congo","Republic of the Congo","Costa Rica","Cote d‘Ivoire",
+                        </br><input name="entry" type="text" autocomplete="off" class="form-control form-control-sm " data-provide="typeahead" data-source='["Afghanistan","Albania","Algeria","Andorra","Angola","Antigua and Barbuda","Argentina","Armenia","Australia","Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bhutan","Bolivia","Bosnia and Herzegovina","Botswana","Brazil","Brunei","Bulgaria","Burkina Faso","Burundi","Cabo Verde","Cambodia","Cameroon","Canada","Central African Republic (CAR)","Chad","Chile","China","Colombia","Comoros","Democratic Republic of the Congo","Republic of the Congo","Costa Rica","Cote d‘Ivoire",
                             "Croatia","Cuba","Cyprus","Czech Republic","Denmark", "Djibouti", "Dominica","Dominican Republic","Ecuador","Egypt","El Salvador",
                             "Equatorial Guinea","Eritrea","Estonia","Ethiopia","Fiji","Finland",
                             "France","Gabon","Gambia","Georgia","Germany","Ghana","Greece","Grenada",
@@ -385,13 +421,13 @@
                             "United States of America (USA)","Uruguay","Uzbekistan","Vanuatu",
                             "Vatican City (Holy See)","Venezuela","Vietnam","Yemen","Zambia","Zimbabwe"]'>
                             </div>
-                    <div class="col-sm-2 offset-sm-1">
+                    <div class="col-sm-2 ">
                         </br><input  name="noentry" class="form-control form-control-sm col-sm-12 offset-sm-2">
                             </div>
                     <div class="col-sm-2 text-center">
                         </br><select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
                             <option value="like">like</option>
+                            <option value="exact">exact</option>
                         </select>
                     </div>
                 </div>
@@ -400,13 +436,16 @@
                         </br>Region
                     </label>
                     <label class=" text-center col-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="region">
+                        </br><input   type="checkbox" name="blankCheckbox" value="region">
                     </label>
                     <label class=" text-center col-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="region">
+                        </br><input  type="checkbox" name="blankCheckbox" value="region">
                     </label>
+                    <div class="col-sm-1">
+                        </br></br>
+                    </div>
                     <div class="col-sm-3 ">
-                        </br><select name="entry" name="entry" class="chosen-select "  multiple  style="width:180px;">
+                        </br><select name="entry" name="entry" class="chosen-select "  multiple  >
                             <option value="east of england">England</option>
                             <option value="east midlands">East Midlands</option>
                             <option value="london">London</option>
@@ -423,13 +462,13 @@
                             <option value="other">Other</option>
                         </select>
                             </div>
-                    <div class="col-sm-2 offset-sm-1">
+                    <div class="col-sm-2 ">
                         </br><input name="noentry" class="form-control form-control-sm col-sm-12 offset-sm-2">
                             </div>
                     <div class="col-sm-2 text-center">
                         </br><select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
                             <option value="like">like</option>
+                            <option value="exact">exact</option>
                         </select>
                     </div>
                 </div>
@@ -438,18 +477,21 @@
                         </br>Biography
                     </label>
                     <label class=" text-center col-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="biographyText">
+                        </br><input   type="checkbox" name="blankCheckbox" value="biographyText">
                     </label>
-                    <div class="col-sm-3 offset-sm-1">
-                        </br><input name="entry" class="form-control form-control-sm col-sm-12 offset-sm-3">
+                    <div class="col-sm-2">
+                        </br></br>
+                    </div>
+                    <div class="col-sm-3 ">
+                        </br><input name="entry" class="form-control form-control-sm col-sm-12 ">
                             </div>
-                    <div class="col-sm-2 offset-sm-1">
+                    <div class="col-sm-2 ">
                         </br><input  name="noentry" class="form-control form-control-sm col-sm-12 offset-sm-2">
                             </div>
                     <div class="col-sm-2 text-center">
                         </br><select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
                             <option value="like">like</option>
+                            <option value="exact">exact</option>
                         </select>
                     </div>
                 </div>
@@ -458,21 +500,24 @@
                         </br>Notes
                     </label>
                     <label class=" text-center col-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="notes">
+                        </br><input  type="checkbox" name="blankCheckbox" value="notes">
                     </label>
                     <label class=" text-center col-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="notes">
+                        </br><input   type="checkbox" name="blankCheckbox" value="notes">
                     </label>
+                    <div class="col-sm-1">
+                        </br></br>
+                    </div>
                     <div class="col-sm-3 ">
-                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 offset-sm-3">
+                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 ">
                             </div>
-                    <div class="col-sm-2 offset-sm-1">
-                        </br><input name="noentry"  class="form-control form-control-sm col-sm-12 offset-sm-2">
+                    <div class="col-sm-2 ">
+                        </br><input name="noentry"  class="form-control form-control-sm col-sm-12 offset-sm-2 ">
                             </div>
                     <div class="col-sm-2 text-center">
                         </br><select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
-                            <option value="like">like</option>
+                                <option value="like">like</option>
+                                <option value="exact">exact</option>
                         </select>
                     </div>
                 </div>
@@ -481,18 +526,21 @@
                         </br>School Lower Age
                     </label>
                     <label class=" text-center col-sm-1 offset-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="schoollowerage">
+                        </br><input   type="checkbox" name="blankCheckbox" value="schoollowerage">
                     </label>
+                    <div class="col-sm-1">
+                        </br></br>
+                    </div>
                     <div class="col-sm-3 ">
-                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 offset-sm-3">
+                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 ">
                             </div>
-                    <div class="col-sm-2 offset-sm-1">
+                    <div class="col-sm-2 ">
                         </br><input  name="noentry" class="form-control form-control-sm col-sm-12 offset-sm-2">
                             </div>
                     <div class="col-sm-2 text-center">
                         </br><select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
-                            <option value="like">like</option>
+                                <option value="like">like</option>
+                                <option value="exact">exact</option>
                         </select>
                     </div>
             </div>
@@ -501,18 +549,21 @@
                         </br>School Higher Age
                     </label>
                     <label class=" text-center col-sm-1 offset-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="schoolhigherage">
+                        </br><input   type="checkbox" name="blankCheckbox" value="schoolhigherage">
                     </label>
+                    <div class="col-sm-1">
+                    </br></br>
+                    </div>
                     <div class="col-sm-3 ">
-                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 offset-sm-3">
+                        </br><input  name="entry" class="form-control form-control-sm col-sm-12 ">
                             </div>
-                    <div class="col-sm-2 offset-sm-1">
+                    <div class="col-sm-2 ">
                         </br><input  name="noentry" class="form-control form-control-sm col-sm-12 offset-sm-2">
                             </div>
                     <div class="col-sm-2 text-center">
                         </br><select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
-                            <option value="like">like</option>
+                                <option value="like">like</option>
+                                <option value="exact">exact</option>
                         </select>
                     </div>
             </div>
@@ -521,18 +572,21 @@
                         </br>School URN
                     </label>
                     <label class=" text-center col-sm-1 offset-sm-1">
-                        </br><input class="form-check-input position-static" type="checkbox" name="blankCheckbox" value="schoolURN">
+                        </br><input   type="checkbox" name="blankCheckbox" value="schoolURN">
                     </label>
+                    <div class="col-sm-1">
+                        </br></br>
+                    </div>
                     <div class="col-sm-3 ">
-                        </br><input name="entry" class="form-control form-control-sm col-sm-12 offset-sm-3">
+                        </br><input name="entry" class="form-control form-control-sm col-sm-12 ">
                             </div>
-                    <div class="col-sm-2 offset-sm-1">
+                    <div class="col-sm-2 ">
                         </br><input  name="noentry"  class="form-control form-control-sm col-sm-12 offset-sm-2">
                             </div>
                     <div class="col-sm-2 text-center">
                         </br><select name="condition" aria-controls="dataTable">
-                            <option value="exact">exact</option>
-                            <option value="like">like</option>
+                                <option value="like">like</option>
+                                <option value="exact">exact</option>
                         </select>
                     </div>
             </div>
